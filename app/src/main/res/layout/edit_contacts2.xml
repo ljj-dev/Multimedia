@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="190dp">
+    <TextView
+        android:id="@+id/mytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="编   辑" />
+
+    <TextView
+        android:id="@+id/type1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/editname"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@+id/editname"
+        android:text="姓名"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mytitle" />
+
+    <TextView
+        android:id="@+id/type2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/editPho"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/editPho"
+        android:text="电话"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editPho"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editname"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/editcomf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPho"
+        android:layout_alignLeft="@+id/editPho"
+        android:onClick="editcomf"
+        android:text="确认" />
+
+    <Button
+        android:id="@+id/editcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPho"
+        android:layout_toRightOf="@+id/editcomf"
+        android:onClick="editcancel"
+        android:text="取消" />
+
+</RelativeLayout>

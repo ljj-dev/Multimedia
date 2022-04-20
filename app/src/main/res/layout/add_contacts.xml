@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="190dp">
+    <TextView
+        android:id="@+id/mytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:text="新     建" />
+
+    <TextView
+        android:id="@+id/type1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/newname"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@+id/newname"
+        android:gravity="center"
+        android:text="姓 名" />
+
+    <EditText
+        android:id="@+id/newname"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mytitle" />
+
+    <TextView
+        android:id="@+id/type2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/newPho"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/newPho"
+        android:gravity="center"
+        android:text="电 话" />
+
+    <EditText
+        android:id="@+id/newPho"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newname"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/comf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newPho"
+        android:layout_alignLeft="@+id/newPho"
+        android:onClick="comf"
+        android:text="确认" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newPho"
+        android:layout_toRightOf="@+id/comf"
+        android:onClick="cancel"
+        android:text="取消" />
+
+</RelativeLayout>

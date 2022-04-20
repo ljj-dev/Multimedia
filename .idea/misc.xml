@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/activity_add_contacts.xml" value="0.4088541666666667" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/activity_main.xml" value="0.4088541666666667" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/add_contacts.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/albums.xml" value="0.3890625" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/camera.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/camera_album.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/dialog1.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/dialog2.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/dialog3.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/dialog4.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/dialong3.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/edit_contacts.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/edit_contacts2.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/item.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/message_interface1.xml" value="0.4036458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Multimedia/app/src/main/res/layout/msg_item.xml" value="0.4036458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
